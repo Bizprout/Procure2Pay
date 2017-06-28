@@ -1325,7 +1325,7 @@ select.form-control {
 }
 .card-header .heading-elements i,
 .card-header .heading-elements-toggle i {
-    color: #818A91
+    color: black;
 }
 .card-header .heading-elements a,
 .card-header .heading-elements-toggle a {
@@ -1748,7 +1748,9 @@ select.form-control {
     border-radius: 0
 }
 .nav.nav-tabs.nav-justified {
-    width: 100%
+    width: 50%;
+    height: 25px;
+    display:-webkit-box;
 }
 .nav.nav-tabs.nav-justified .nav-link {
     text-align: center;
@@ -1775,7 +1777,7 @@ select.form-control {
     }
 }
 .nav.nav-tabs.nav-justified .nav-item a.nav-link.active {
-    background-color: #FFF
+    background-color: #fff;
 }
 .nav.nav-tabs.nav-top-border .nav-item a {
     color: #37BC9B
@@ -2062,7 +2064,8 @@ select.form-control {
     margin-top: -1rem
 }
 .nav .nav-item .nav-link {
-    display: block
+    display: block;
+    color: black;
 }
 .nav .dropdown-divider {
     margin: .5rem 0

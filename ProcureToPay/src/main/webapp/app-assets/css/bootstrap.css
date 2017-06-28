@@ -2744,7 +2744,7 @@ tbody.collapse.in {
   margin-left: 1rem; }
 
 .nav-tabs {
-  border-bottom: 1px solid #ddd; }
+  border-bottom: 0px solid #ddd; }
   .nav-tabs::after {
     content: "";
     display: table;
@@ -2757,7 +2757,7 @@ tbody.collapse.in {
   .nav-tabs .nav-link {
     display: block;
     padding: 0.5em 1em;
-    border: 1px solid transparent;
+    /* border: 1px solid transparent; */
     border-top-right-radius: 0.18rem;
     border-top-left-radius: 0.18rem; }
     .nav-tabs .nav-link:focus {
@@ -3202,12 +3202,17 @@ tbody.collapse.in {
     content: "";
     display: table;
     clear: both; }
-  .card-header:first-child {
-    border-top-left-radius: 20px;
-	border-top-right-radius: 20px;	
+  .card-header:first-child {    
 	/* background-image: url("../images/blur-bg.jpg"); */
 	}
-
+.card-border
+{
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;	
+}
+.card-clr{
+	background: #37bc9b;
+}
 .card-footer {
   padding: 1rem 1.5rem;
   background-color: #fff;
