@@ -24,11 +24,11 @@ $(window).on("load", function(){
 
     // Chart Data
     var chartData = {
-        labels: ["January", "February", "March", "April", "May"],
+        labels: ["Funds Avaliable", "Due Amount", "OverDue", "On Hold"],
         datasets: [{
-            label: "My First dataset",
-            data: [65, 35, 24, 45, 85],
-            backgroundColor: ["#99B898","#FECEA8","#FF847C","#E84A5F","#2A363B"],
+            label: "Funds Position",
+            data: [250856.00, 80000.00, 20000.00, 10000.00],
+            backgroundColor: ["rgba(24,195,137,0.64)","rgba(218,212,26,0.64)","rgba(255,4,4,0.64)","rgba(56,56,255,0.64)"],
         }]
     };
 

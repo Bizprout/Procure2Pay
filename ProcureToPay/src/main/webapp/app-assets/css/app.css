@@ -6,7 +6,7 @@ html {
   height: 100%; }
   html body {
     height: 100%;
-    background-color: #F3F3F3;
+    background-color: rgba(220, 217, 217, 0.81);
     direction: ltr; }
     html body.fixed-navbar {
       padding-top: 4rem; }
@@ -325,13 +325,16 @@ footer.footer-dark {
           color: white;
           background: #162029; }
         .main-menu.menu-dark .navigation > li.open .hover > a {
-          background: #121b22; }
+         color: #209e91;
+         /*  background: #209e91; */ }
+         .main-menu.menu-dark .navigation > li.open .active .hover > a {
+         color: black; }
         .main-menu.menu-dark .navigation > li:not(.open) > ul {
           display: none; }
         .main-menu.menu-dark .navigation > li.hover > a, .main-menu.menu-dark .navigation > li:hover > a, .main-menu.menu-dark .navigation > li.active > a {
           color: #209e91;
-          background-color: #162029;
-		  /*  border-right:5px solid #209e91; */
+         /*  background-color: #162029;
+		   border-right:5px solid #209e91; */
 		  }
           .main-menu.menu-dark .navigation > li.hover > a.mm-next, .main-menu.menu-dark .navigation > li:hover > a.mm-next, .main-menu.menu-dark .navigation > li.active > a.mm-next {
             background-color: inherit; }
@@ -374,8 +377,8 @@ footer.footer-dark {
             .main-menu.menu-dark .navigation > li ul .open .hover > a {
               background: #0b1115; }
           .main-menu.menu-dark .navigation > li ul .hover > a, .main-menu.menu-dark .navigation > li ul:hover > a {
-            color: #e6e6e6;
-            background-color: #162029; }
+            color: #209e91;
+           /*  background-color: #209e91; */ }
           .main-menu.menu-dark .navigation > li ul .active {
             background: rgba(0, 0, 0, 0.06); }
             .main-menu.menu-dark .navigation > li ul .active > a {
@@ -392,11 +395,12 @@ footer.footer-dark {
         .main-menu.menu-dark ul.menu-popout li a span.menu-sub-title {
           color: white; }
       .main-menu.menu-dark ul.menu-popout li.hover > a, .main-menu.menu-dark ul.menu-popout li:hover > a, .main-menu.menu-dark ul.menu-popout li.open > a {
-        background: #121b22; }
+        color: #209e91; }
       .main-menu.menu-dark ul.menu-popout .has-sub:not(.open) > ul {
         display: none; }
       .main-menu.menu-dark ul.menu-popout .open {
-        background: #0f161b; }
+       color: #209e91;
+        /* background: #0f161b; */ }
         .main-menu.menu-dark ul.menu-popout .open > a {
           color: #dcdcdc; }
         .main-menu.menu-dark ul.menu-popout .open > ul {
@@ -408,12 +412,13 @@ footer.footer-dark {
               display: block;
               background: #06090b; }
         .main-menu.menu-dark ul.menu-popout .open li.hover > a, .main-menu.menu-dark ul.menu-popout .open li:hover > a {
+          color: #209e91;
           background: #0b1115; }
       .main-menu.menu-dark ul.menu-popout .hover > a, .main-menu.menu-dark ul.menu-popout:hover > a {
-        color: #e6e6e6;
+        color: #209e91;
         background-color: #162029; }
       .main-menu.menu-dark ul.menu-popout .active {
-        background: rgba(0, 0, 0, 0.06); }
+        background: #209e91; }
         .main-menu.menu-dark ul.menu-popout .active > a {
           color: #c3c3c3;
           background-color: #0b1115; }
@@ -2448,4 +2453,16 @@ input[type="month"].form-control {
 }
 .ladda-button[data-style=contract-overlay][data-loading] .ladda-spinner {
     opacity: 1
+} 
+
+/* .card-body-funds-avaliable {
+	background: aquamarine;
+}
+
+.card-body-due {
+	background: #d24444;
+}
+ */
+.total-border{
+	border: 2px solid;
 } 
